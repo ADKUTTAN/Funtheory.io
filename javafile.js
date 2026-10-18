@@ -25,7 +25,7 @@ function createParticles() {
 // Countdown Timer - Target
 
 function updateCountdown() {
-   const christmas = new Date('october 18, 2026 00:00:00').getTime();
+   const christmas = new Date('october 19, 2026 00:00:00').getTime();
    const now = new Date().getTime();
    const distance = christmas - now;
 
